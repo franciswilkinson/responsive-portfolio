@@ -6,7 +6,7 @@
   --lgreen: rgb(85, 149, 85);
   --white:white;
 }
-
+/*general styling*/
 * {
   box-sizing: border-box;
 }
@@ -18,7 +18,7 @@ body {
   line-height: 1.5;
   
 }
-
+/*header */
 header{
   display:flex;
   justify-content: space-around;
@@ -65,7 +65,7 @@ nav ul li {
   display: flex;
 }
 
-
+/*Banner */
 .hero-banner img{
   height:200px;
   width:100%;
@@ -79,7 +79,7 @@ nav ul li {
   display: flex;
   justify-self: end;
 }
-
+/*Main page section*/
 main{
   display:flex;
   flex-wrap:wrap;
@@ -97,7 +97,28 @@ main{
   width:25%;
 }
 
+/*About section*/
+#about {
+  display: flex;
+  width:100%;
+}
 
+#about img{
+  height:200px;
+  float: left; 
+  margin: 5px; 
+}
+
+#about p{
+  width:75%;
+  text-align:justify;
+}
+
+#about > h2{
+  width:25%;
+}
+
+/*Work section*/
 #work{
   display:flex;
   width: 100%;
@@ -140,18 +161,7 @@ main{
   height:200px;
 }
 
-#about {
-  display: flex;
-}
-
-#about p{
-  width:75%;
-}
-
-#about > h2{
-  width:25%;
-}
-
+/*Contact section*/
 #contact{
   width:100%;
   display:flex;
@@ -182,16 +192,18 @@ main{
   text-decoration: underline;
   justify-content: space-between;
 }
-
+/*Footer*/
 footer{
   padding-top: 20px;
   background-color: var(--dblue);
 }
+
 /* for smaller screens - responsive design */
 @media screen and (max-width: 768px) {
   /* */
-  .portfolio {
-flex-direction: column;  }
+.portfolio {
+  flex-direction: column; 
+ }
 
 .portfolio-item{
   height:100px;

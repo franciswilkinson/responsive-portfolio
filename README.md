@@ -9,7 +9,7 @@ A project to use semantic-HTML, Flexbox, & media queries.
 - Commented HTML and CSS files.
 - Published at [franciswilkinson.github.io/horiseon/](linkurlhttps://franciswilkinson.github.io/responsive-portfolio/)
 
-![Francis Wilkinson's Responsive Portfolio](https://github.com/franciswilkinson/responsive-portfolio/blob/main/assets/images/screenshot_franciswilkinson.github.io.jpeg "Responsive Portfolio")
+![Francis Wilkinson's Responsive Portfolio](https://github.com/franciswilkinson/responsive-portfolio/blob/main/images/screenshot_franciswilkinson.github.io.jpeg "Responsive Portfolio")
 
 
 ## Installation
