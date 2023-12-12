@@ -7,7 +7,7 @@ A project to use semantic-HTML, Flexbox, & media queries.
 
 - Used Flexbox to arrange the elements and images on the page.
 - Commented HTML and CSS files.
-- Published at [franciswilkinson.github.io/horiseon/](linkurlhttps://franciswilkinson.github.io/responsive-portfolio/)
+- Published at [franciswilkinson.github.io/responsive-portfolio/](linkurlhttps://franciswilkinson.github.io/responsive-portfolio/)
 
 ![Francis Wilkinson's Responsive Portfolio](https://github.com/franciswilkinson/responsive-portfolio/blob/main/images/screenshot_franciswilkinson.github.io.jpeg "Responsive Portfolio")
 
@@ -18,7 +18,7 @@ N/A
 
 ## Usage
 
-To use this webpage, you can look arond to see how it is built using CSS Flexbox and media queries. 
+To use this webpage, you can look around to see how it is built using CSS Flexbox and media queries. 
 
 ## Credits
 
