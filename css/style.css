@@ -1,0 +1,200 @@
+/* color scheme */
+:root {
+  --dblue:rgb(11 25 98);
+  --lblue: rgb(146, 170, 221);
+  --lyellow: rgb(249, 249, 157);
+  --lgreen: rgb(85, 149, 85);
+  --white:white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  
+}
+
+header{
+  display:flex;
+  justify-content: space-around;
+  background-color: var(--dblue);
+  color:var(--white)
+}
+
+h1 {
+  color:var(--white);
+  background-color: var(--lblue);
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color:var(--dblue);
+  
+}
+
+header a {
+  padding: 14px 20px;
+  color:var(--lyellow);
+  text-decoration:underline;
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+#navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin: 0px 5%;
+}
+#navBar h1 {
+  font-weight: 500;
+  
+}
+#navigation {
+  display: flex;
+}
+
+
+.hero-banner img{
+  height:200px;
+  width:100%;
+}
+
+.hero-banner h2{
+  margin-top: -35px;
+  z-index: 999;
+  color:var(--white);
+  background-color:var(--lblue);
+  display: flex;
+  justify-self: end;
+}
+
+main{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+}
+
+
+.page-wrapper{
+  display:flex;
+  flex-direction: row;
+}
+
+.page-wrapper h2{
+  text-align:left;
+  width:25%;
+}
+
+
+#work{
+  display:flex;
+  width: 100%;
+  
+}
+
+#work > h2{
+  width:25%;
+}
+
+#work div.portfolio{
+  flex-flow: row wrap;
+  width:75%;
+}
+
+.portfolio{
+  display:flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+}
+
+
+.portfolio-item{
+  height:100px;
+  width:50%;
+  border: 2px solid var(--lblue);
+}
+
+.portfolio-item > img{
+  height:100px;
+  width:100%;
+}
+
+.portfolio-01{
+ height:200px;
+ width:100%
+}
+
+.portfolio-item:first-child > img{
+  height:200px;
+}
+
+#about {
+  display: flex;
+}
+
+#about p{
+  width:75%;
+}
+
+#about > h2{
+  width:25%;
+}
+
+#contact{
+  width:100%;
+  display:flex;
+}
+
+#contact > h2{
+  width:25%;
+}
+#contact > a {
+  color:var(--lgreen);
+}
+
+#navBar2 {
+  align-items: center;
+}
+
+.navigation2 {
+  display:flex;
+  flex-direction: row;
+}
+
+.navigation2 a {
+  color:var(--lgreen);
+  padding:0 20px;
+}
+
+.navigation-item{
+  text-decoration: underline;
+  justify-content: space-between;
+}
+
+footer{
+  padding-top: 20px;
+  background-color: var(--dblue);
+}
+/* for smaller screens - responsive design */
+@media screen and (max-width: 768px) {
+  /* */
+  .portfolio {
+flex-direction: column;  }
+
+.portfolio-item{
+  height:100px;
+  width:100%;
+  border: 2px solid var(--lblue);
+}
